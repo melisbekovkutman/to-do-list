@@ -1,0 +1,90 @@
+body {
+  text-align: center;
+  background-image: linear-gradient(
+  45deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(289deg 100% 21%) 11%,
+  hsl(315deg 100% 27%) 22%,
+  hsl(329deg 100% 36%) 33%,
+  hsl(337deg 100% 43%) 44%,
+  hsl(357deg 91% 59%) 56%,
+  hsl(17deg 100% 59%) 67%,
+  hsl(34deg 100% 53%) 78%,
+  hsl(45deg 100% 50%) 89%,
+  hsl(55deg 100% 50%) 100%
+);
+background-repeat: no-repeat;
+background-size: cover;
+height: 700px;
+}
+.App {
+  background: rgb(2,0,36);
+  background-image: url(../src/img/thumb2-blue-abstract-background-blue-creative-background-neon-lines-background-neon-blue-light.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 550px;
+  position: relative;
+  left: 300px;
+  top: 30px;
+  height: 600px;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 10px;
+}
+.App li {
+  text-align: center;
+  font-size: 40px;
+}
+.App input {
+
+  border-radius: 5px;
+  position: relative;
+  top: 15px;
+  border: solid ;
+}
+.App button {
+  padding: 1px 2px;
+  box-shadow: 1px 1px 1px black;
+  border-radius: 5px;
+  position: relative;
+  left: 15px;
+  top: 10px;
+  font-size: 10px;
+}
+.App placeholder {
+  color: aqua;
+}
+.area {
+  position: relative;
+  top: 30px;
+  left: 10px;
+  border: solid;
+  border-radius: 5px;
+}
+.todo {
+  position: relative;
+  bottom: 60px;
+  font-family: 'Monserrat' sans-serif;
+  color: greenyellow;
+  text-shadow: 3px 3px 3px black;
+}
+.logo  {
+  width: 70px;
+  position: relative;
+  right: 90px;
+  top: 10px;
+
+
+}
+.list {
+  height: 60px;
+  position: relative;
+  top: 15px;
+  transition: .7s;
+  cursor: pointer; 
+  
+}
+.text {
+  font-size: 35px;
+  color: gold;
+  font-family: 'Monserrat',sans-serif;
+}
